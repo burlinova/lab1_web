@@ -1,0 +1,186 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.header-table {
+    background-color: #ff8000;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-table h1 {
+    margin: 0;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.header-table input[type="text"],
+.header-table input[type="password"],
+.header-table input[type="submit"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.header-table input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.header-table input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.header-table a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header-table a:hover {
+    text-decoration: underline;
+}
+
+.nav-table {
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 10px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-table a {
+    color: #ff8000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.nav-table a:hover {
+    color: #e06c00;
+}
+
+.nav-table input[type="text"],
+.nav-table input[type="button"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.nav-table input[type="button"] {
+    background-color: #ff8000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-table input[type="button"]:hover {
+    background-color: #e06c00;
+}
+
+.content-table {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    background-color: #ff8000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.banner-sidebar {
+    background-color: #ff8000;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-sidebar img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.banner-sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner-sidebar a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 24px;
+    color: #ff8000;
+    text-align: center;
+    margin-top: 0;
+}
+
+.content h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.content p {
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.content img {
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.content table {
+    width: 100%;
+    border: 3px solid #ff8000;
+    margin: 20px 0;
+}
+
+.content table td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.content ul, .content ol {
+    margin: 15px 0;
+    padding-left: 30px;
+}
+
+.content ul li, .content ol li {
+    margin: 10px 0;
+}

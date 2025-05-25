@@ -1,0 +1,96 @@
+<html>
+<head>
+    <title>ТРЦ Атриум - Контакты</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<!-- Шапка -->
+<table border="0" width="900" cellpadding="0" cellspacing="0" align="center" bgcolor="#ff8000">
+    <tr>
+        <td width="150" align="center"><img src="logo.png" alt="ЛОГОТИП"></td>
+        <td align="center"><h1>ТРЦ Атриум</h1><p>Добро пожаловать в мир шопинга и развлечений!</p></td>
+        <td width="200">
+            <table cellpadding="5" width="100%">
+                <tr>
+                    <td align="right"><input type="text" placeholder="логин"></td>
+                </tr>
+                <tr>
+                    <td align="right"><input type="password" placeholder="пароль"></td>
+                </tr>
+                <tr>
+                    <td align="right"><input type="submit" value="войти"> <a href="register.html">регистрация</a></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- Меню -->
+<table border="0" width="900" cellpadding="5" cellspacing="0" align="center">
+    <tr>
+        <td align="center"><a href="index.html">Главная</a></td>
+        <td align="center"><a href="catalog.html">Каталог</a></td>
+        <td align="center"><a href="contacts.html">Контакты</a></td>
+        <td align="center"><a href="about.html">О нас</a></td>
+        <td align="right"><input type="text" placeholder="поиск"> <input type="button" value="искать"></td>
+    </tr>
+</table>
+
+<!-- Горизонтальная черта -->
+<hr>
+
+<!-- Основной контент -->
+<table border="0" width="900" cellpadding="5" cellspacing="0" align="center">
+    <tr>
+        <td>
+            <h1 align="center">Напишите нам</h1>
+            <form action="submit_contact.php" method="post">
+                <table border="0" cellpadding="5" align="center">
+                    <tr>
+                        <td>Имя:</td>
+                        <td><input type="text" name="name" placeholder="Ваше имя" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" name="email" placeholder="Ваш email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Телефон:</td>
+                        <td><input type="tel" name="phone" placeholder="Ваш телефон"></td>
+                    </tr>
+                    <tr>
+                        <td>Тема:</td>
+                        <td><input type="text" name="subject" placeholder="Тема сообщения" required></td>
+                    </tr>
+                    <tr>
+                        <td>Сообщение:</td>
+                        <td><textarea name="message" rows="5" cols="40" placeholder="Ваше сообщение" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input type="submit" value="Отправить"></td>
+                    </tr>
+                </table>
+            </form>
+
+            <h2 align="center">Адрес</h2>
+            <p align="center">
+                Телефон: +7 (495) 123-45-67<br>
+                Адрес: г. Москва, ул. Центральная, д. 10<br>
+                Email: info@atrium.ru
+            </p>
+
+            <h2 align="center">Наше местоположение</h2>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1234567890&source=constructor" width="900" height="400" frameborder="0"></iframe>
+        </td>
+    </tr>
+</table>
+
+<!-- Футер -->
+<hr>
+<table border="0" width="900" cellpadding="5" align="center">
+    <tr>
+        <td align="center">© 2025 ТРЦ Атриум. Все права защищены.</td>
+    </tr>
+</table>
+</body>
+</html>
